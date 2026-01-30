@@ -23,8 +23,8 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   const apps = [
-    { name: "Telegram", icon: "tg.png", link: "tg.exe" },
-    { name: "Discord", icon: "ds.png", link: "ds.exe" }
+    { name: "Telegram", icon: "tg.png", description: "Telegram Virus Remod", link: "tg.exe" },
+    { name: "Discord", icon: "ds.png", description: "Discord Virus Remod", link: "ds.exe" }
   ];
 
   const list = document.getElementById('app-list');
@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <img src="${app.icon}" class="app-icon">
         <div class="app-info">
           <h3 class="app-title">${app.name}</h3>
+          <h5 class="app-description">${app.description}</h5>
           <a href="${app.link}" download class="download-btn">Скачать</a>
         </div>
       `;
