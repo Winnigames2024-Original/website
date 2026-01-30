@@ -57,7 +57,7 @@ button {
   border-radius: 10px;
   margin-bottom: 10px;
 }
-.download-btn {
+#app-list download-btn {
     background-color: #007bff;
     color: white;
     padding: 8px 15px;
