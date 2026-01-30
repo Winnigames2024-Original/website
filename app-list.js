@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="app-info">
           <h3 class="app-title">${app.name}</h3>
           <a class="app-description">${app.description}</a>
-          <button onclick="location.href = "${app.link}"" download class="download-btn">Скачать</a>
+          <button onclick="location.href = "${app.link}" download class="download-btn">Скачать</a>
         </div>
       `;
       list.appendChild(li);
