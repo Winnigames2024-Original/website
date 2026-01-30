@@ -43,9 +43,9 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+/* button:hover {
     background-color: #218838;
-}
+} */
 
 
 .app-container { list-style: none; padding: 0; }
