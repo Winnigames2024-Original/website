@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <img src="${app.icon}" class="app-icon">
         <div class="app-info">
           <h3 class="app-title">${app.name}</h3>
-          <h5 class="app-description">${app.description}</h5>
+          <a class="app-description">${app.description}</a>
           <a href="${app.link}" download class="download-btn">Скачать</a>
         </div>
       `;
