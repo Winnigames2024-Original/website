@@ -37,6 +37,12 @@ button {
     cursor: pointer;
 }
 
+#app-list app-description {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 button:hover {
     background-color: #218838;
 }
@@ -60,4 +66,4 @@ button:hover {
     font-size: 14px;
 }
 
-.download-btn:hover { background-color: #0056b3; }
+/* .download-btn:hover { background-color: #0056b3; } */
