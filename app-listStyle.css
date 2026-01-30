@@ -28,14 +28,14 @@
     background-color: #0056b3;
 } */
 
-button {
+/* button {
     padding: 10px 20px;
     background-color: #28a745;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
+} */
 
 #app-list app-description {
     border: none;
@@ -57,13 +57,12 @@ button {
   border-radius: 10px;
   margin-bottom: 10px;
 }
-#app-list download-btn {
+/* #app-list download-btn {
     background-color: #007bff;
     color: white;
     padding: 8px 15px;
     border-radius: 4px;
-    text-decoration: none;
     font-size: 14px;
-}
+} */
 
 /* .download-btn:hover { background-color: #0056b3; } */
