@@ -24,9 +24,9 @@
     font-weight: bold;
 }
 
-#app-list a:hover {
+/* #app-list a:hover {
     background-color: #0056b3;
-}
+} */
 
 button {
     padding: 10px 20px;
@@ -59,4 +59,5 @@ button:hover {
     text-decoration: none;
     font-size: 14px;
 }
+
 .download-btn:hover { background-color: #0056b3; }
