@@ -1,0 +1,51 @@
+#app-list {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0;
+}
+
+#app-list li {
+    display: flex; /* Располагаем элементы в ряд */
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#app-list img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+#app-list span {
+    flex-grow: 1; /* Название занимает все доступное пространство */
+    font-weight: bold;
+}
+
+#app-list a {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#app-list a:hover {
+    background-color: #0056b3;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
