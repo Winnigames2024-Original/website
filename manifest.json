@@ -1,0 +1,54 @@
+{
+  "background_color": "#ffffff",
+  "description": "Winnigames2024 Site",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Winnigames2024",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Winnigames2024",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://static.tildacdn.com/tild6166-6438-4239-a563-663361643830/photo_2025-11-14_15-.jpg",
+      "type": "image/jpeg",
+      "sizes": "640x640",
+      "isSquare": true,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": true,
+      "width": 640,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    },
+    {
+      "src": "https://thb.tildacdn.com/tild3766-3936-4163-a566-303336643136/-/resize/504x/breather181289.jpg",
+      "type": "image/jpeg",
+      "sizes": "504x336",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": true,
+      "width": 504,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    },
+    {
+      "src": "https://winnigames2024.ru/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "640x640",
+      "isSquare": true,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 640,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ],
+  "id": "winnisite"
+}
